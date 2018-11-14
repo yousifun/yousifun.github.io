@@ -5,9 +5,9 @@
   <subtitle>有思，有趣</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.yousi.fun/"/>
+  <link href="http://wiki.yousi.fun/"/>
   <updated>2018-11-14T16:56:00.596Z</updated>
-  <id>http://blog.yousi.fun/</id>
+  <id>http://wiki.yousi.fun/</id>
   
   <author>
     <name>yousifun</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>jQuery对表单的操作及更多应用</title>
-    <link href="http://blog.yousi.fun/wiki/hello-world%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
-    <id>http://blog.yousi.fun/wiki/hello-world - 副本 (2)/</id>
+    <link href="http://wiki.yousi.fun/wiki/hello-world%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
+    <id>http://wiki.yousi.fun/wiki/hello-world - 副本 (2)/</id>
     <published>2017-05-26T04:12:57.000Z</published>
     <updated>2018-11-14T16:56:00.596Z</updated>
     
@@ -47,51 +47,15 @@ $ hexo s
     
     </summary>
     
-      <category term="web前端" scheme="http://blog.yousi.fun/categories/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="web前端" scheme="http://wiki.yousi.fun/categories/web%E5%89%8D%E7%AB%AF/"/>
     
     
   </entry>
   
   <entry>
     <title>jQuery对表单的操作及更多应用</title>
-    <link href="http://blog.yousi.fun/wiki/hello-world%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>http://blog.yousi.fun/wiki/hello-world - 副本/</id>
-    <published>2017-05-26T04:12:57.000Z</published>
-    <updated>2018-11-14T16:56:00.596Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" rel="external nofollow noopener noreferrer" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" rel="external nofollow noopener noreferrer" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" rel="external nofollow noopener noreferrer" target="_blank">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" rel="external nofollow noopener noreferrer" target="_blank">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" rel="external nofollow noopener noreferrer" target="_blank">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" rel="external nofollow noopener noreferrer" target="_blank">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-
-Quick Start
-Create a new post
-1
-
-
-$ hexo new &quot;My New Post&quot;
-
-
-More info: Writing
-
-Run server
-1
-
-
-$ hexo s
-    
-    </summary>
-    
-      <category term="web前端" scheme="http://blog.yousi.fun/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>jQuery对表单的操作及更多应用</title>
-    <link href="http://blog.yousi.fun/wiki/hello-world%20-%20%E5%89%AF%E6%9C%AC%20(3)/"/>
-    <id>http://blog.yousi.fun/wiki/hello-world - 副本 (3)/</id>
+    <link href="http://wiki.yousi.fun/wiki/hello-world%20-%20%E5%89%AF%E6%9C%AC%20(3)/"/>
+    <id>http://wiki.yousi.fun/wiki/hello-world - 副本 (3)/</id>
     <published>2017-05-26T04:12:57.000Z</published>
     <updated>2018-11-14T17:00:17.933Z</updated>
     
@@ -119,15 +83,15 @@ $ hexo s
     
     </summary>
     
-      <category term="web前端厚度" scheme="http://blog.yousi.fun/categories/web%E5%89%8D%E7%AB%AF%E5%8E%9A%E5%BA%A6/"/>
+      <category term="web前端厚度" scheme="http://wiki.yousi.fun/categories/web%E5%89%8D%E7%AB%AF%E5%8E%9A%E5%BA%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>jQuery对表单的操作及更多应用</title>
-    <link href="http://blog.yousi.fun/wiki/hello-world%20-%20%E5%89%AF%E6%9C%AC%20(4)/"/>
-    <id>http://blog.yousi.fun/wiki/hello-world - 副本 (4)/</id>
+    <link href="http://wiki.yousi.fun/wiki/hello-world%20-%20%E5%89%AF%E6%9C%AC%20(4)/"/>
+    <id>http://wiki.yousi.fun/wiki/hello-world - 副本 (4)/</id>
     <published>2017-05-26T04:12:57.000Z</published>
     <updated>2018-11-14T17:00:09.264Z</updated>
     
@@ -155,15 +119,15 @@ $ hexo s
     
     </summary>
     
-      <category term="web前端厚度" scheme="http://blog.yousi.fun/categories/web%E5%89%8D%E7%AB%AF%E5%8E%9A%E5%BA%A6/"/>
+      <category term="web前端厚度" scheme="http://wiki.yousi.fun/categories/web%E5%89%8D%E7%AB%AF%E5%8E%9A%E5%BA%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>jQuery对表单的操作及更多应用</title>
-    <link href="http://blog.yousi.fun/wiki/hello-world/"/>
-    <id>http://blog.yousi.fun/wiki/hello-world/</id>
+    <link href="http://wiki.yousi.fun/wiki/hello-world%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://wiki.yousi.fun/wiki/hello-world - 副本/</id>
     <published>2017-05-26T04:12:57.000Z</published>
     <updated>2018-11-14T16:56:00.596Z</updated>
     
@@ -191,7 +155,43 @@ $ hexo s
     
     </summary>
     
-      <category term="web前端" scheme="http://blog.yousi.fun/categories/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="web前端" scheme="http://wiki.yousi.fun/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery对表单的操作及更多应用</title>
+    <link href="http://wiki.yousi.fun/wiki/hello-world/"/>
+    <id>http://wiki.yousi.fun/wiki/hello-world/</id>
+    <published>2017-05-26T04:12:57.000Z</published>
+    <updated>2018-11-14T16:56:00.596Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" rel="external nofollow noopener noreferrer" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" rel="external nofollow noopener noreferrer" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" rel="external nofollow noopener noreferrer" target="_blank">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" rel="external nofollow noopener noreferrer" target="_blank">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" rel="external nofollow noopener noreferrer" target="_blank">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" rel="external nofollow noopener noreferrer" target="_blank">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+
+Quick Start
+Create a new post
+1
+
+
+$ hexo new &quot;My New Post&quot;
+
+
+More info: Writing
+
+Run server
+1
+
+
+$ hexo s
+    
+    </summary>
+    
+      <category term="web前端" scheme="http://wiki.yousi.fun/categories/web%E5%89%8D%E7%AB%AF/"/>
     
     
   </entry>
