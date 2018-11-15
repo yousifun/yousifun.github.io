@@ -3,23 +3,24 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     
-    <title>About | 有思趣</title>
+    <title>apache2 启动一闪而过问题 | 有思趣</title>
     
     
-        <meta name="keywords" content="About">
+        <meta name="keywords" content="wordpress,apache">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="有思，有趣">
-<meta property="og:type" content="website">
-<meta property="og:title" content="About">
-<meta property="og:url" content="http://wiki.yousi.fun/about/index.html">
+    <meta name="description" content="1. 配置文件错误     仔细检查配置文件中的各个参数。  2. IIS占用端口     如果 windows 中启动了 IIS，那么会占用默认端口80，此时只要更改 IIS 的端口或者更改 apache 的端口都可以。">
+<meta name="keywords" content="wordpress,apache">
+<meta property="og:type" content="article">
+<meta property="og:title" content="apache2 启动一闪而过问题">
+<meta property="og:url" content="http://wiki.yousi.fun/wiki/wordpress/apache2启动一闪而过问题.html">
 <meta property="og:site_name" content="有思趣">
-<meta property="og:description" content="有思，有趣">
+<meta property="og:description" content="1. 配置文件错误     仔细检查配置文件中的各个参数。  2. IIS占用端口     如果 windows 中启动了 IIS，那么会占用默认端口80，此时只要更改 IIS 的端口或者更改 apache 的端口都可以。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-11-14T16:24:29.151Z">
+<meta property="og:updated_time" content="2018-11-15T07:54:12.812Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="About">
-<meta name="twitter:description" content="有思，有趣">
+<meta name="twitter:title" content="apache2 启动一闪而过问题">
+<meta name="twitter:description" content="1. 配置文件错误     仔细检查配置文件中的各个参数。  2. IIS占用端口     如果 windows 中启动了 IIS，那么会占用默认端口80，此时只要更改 IIS 的端口或者更改 apache 的端口都可以。">
     
 
     
@@ -160,9 +161,9 @@
         
         
          <ul class="unstyled" id="tree"> 
-                    <li class="directory">
+                    <li class="directory open">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder"></i>
+                            <i class="fa fa-folder-open"></i>
                             &nbsp;
                             wordpress
                         </a>
@@ -175,7 +176,7 @@
                         </a>
                          <ul class="unstyled" id="tree">  <li class="file"><a href="/wiki/wordpress/软件/atom/atom常用插件.html">atom常用插件</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/wiki/wordpress/apache2启动一闪而过问题.html">apache2 启动一闪而过问题</a></li>  <li class="file"><a href="/wiki/wordpress/centos7安装apache2.html">centos7安装apache2</a></li>  <li class="file"><a href="/wiki/wordpress/centos下解决wordpress后台插件必须输入ftp问题.html">centos下解决wordpress后台插件必须输入ftp问题</a></li>  <li class="file"><a href="/wiki/wordpress/centos7安装wordpress.html">centos7安装wordpress</a></li>  <li class="file"><a href="/wiki/wordpress/centos7修改apache2目录权限和默认跟目录.html">centos7修改apache2目录权限和默认跟目录</a></li>  <li class="file"><a href="/wiki/wordpress/wordpress发布文章404.html">wordpress发布文章404</a></li>  <li class="file"><a href="/wiki/wordpress/wordpress 下载模板、更新报错 No working transports found解决办法.html">wordpress 下载模板、更新报错 No working transports found解决办法</a></li>  </ul> 
+                     <li class="file active"><a href="/wiki/wordpress/apache2启动一闪而过问题.html">apache2 启动一闪而过问题</a></li>  <li class="file"><a href="/wiki/wordpress/centos7安装apache2.html">centos7安装apache2</a></li>  <li class="file"><a href="/wiki/wordpress/centos下解决wordpress后台插件必须输入ftp问题.html">centos下解决wordpress后台插件必须输入ftp问题</a></li>  <li class="file"><a href="/wiki/wordpress/centos7安装wordpress.html">centos7安装wordpress</a></li>  <li class="file"><a href="/wiki/wordpress/centos7修改apache2目录权限和默认跟目录.html">centos7修改apache2目录权限和默认跟目录</a></li>  <li class="file"><a href="/wiki/wordpress/wordpress发布文章404.html">wordpress发布文章404</a></li>  <li class="file"><a href="/wiki/wordpress/wordpress 下载模板、更新报错 No working transports found解决办法.html">wordpress 下载模板、更新报错 No working transports found解决办法</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -275,16 +276,55 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
-            <section id="main"><article id="page-" class="article article-type-page" itemscope="" itemprop="blogPost">
+            <section id="main"><article id="post-wordpress/apache2启动一闪而过问题" class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
         
             <header class="article-header">
                 
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/wordpress/">wordpress</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/apache/">apache</a>, <a class="tag-link" href="/tags/wordpress/">wordpress</a>
+    </div>
+
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/wordpress/apache2启动一闪而过问题.html">
+            <time datetime="2018-11-15T07:53:18.692Z" itemprop="datePublished">2018-11-15</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href="https://github.com/yousifun/HexoWiki/raw/hexo/source/_posts/wordpress/apache2启动一闪而过问题.md" rel="external nofollow noopener noreferrer" target="_blank"> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href="https://github.com/yousifun/HexoWiki/edit/hexo/source/_posts/wordpress/apache2启动一闪而过问题.md" rel="external nofollow noopener noreferrer" target="_blank"> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href="https://github.com/yousifun/HexoWiki/commits/hexo/source/_posts/wordpress/apache2启动一闪而过问题.md" rel="external nofollow noopener noreferrer" target="_blank"> History </a>
+                            </div>
+                        
+                    </div>
+                
                 
     
         <h1 class="article-title" itemprop="name">
-            About
+            apache2 启动一闪而过问题
         </h1>
     
 
@@ -297,7 +337,11 @@
             
         
         
-            
+            <ol>
+<li>配置文件错误<br>仔细检查配置文件中的各个参数。</li>
+<li>IIS占用端口<br>如果 windows 中启动了 IIS，那么会占用默认端口80，此时只要更改 IIS 的端口或者更改 apache 的端口都可以。</li>
+</ol>
+
             </div>
         
         <footer class="article-footer">
@@ -307,6 +351,25 @@
 
 
     
+<nav id="article-nav">
+    
+        <a href="/wiki/wordpress/centos7修改apache2目录权限和默认跟目录.html" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">上一篇</strong>
+            <div class="article-nav-title">
+                
+                    centos7修改apache2目录权限和默认跟目录
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/软件/atom/atom风格配置.html" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">atom风格配置</div>
+        </a>
+    
+</nav>
+
 
 
 

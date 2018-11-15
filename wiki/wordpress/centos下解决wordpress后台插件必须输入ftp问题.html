@@ -3,23 +3,24 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     
-    <title>About | 有思趣</title>
+    <title>centos下解决wordpress后台插件必须输入ftp问题 | 有思趣</title>
     
     
-        <meta name="keywords" content="About">
+        <meta name="keywords" content="wordpress,apache">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="有思，有趣">
-<meta property="og:type" content="website">
-<meta property="og:title" content="About">
-<meta property="og:url" content="http://wiki.yousi.fun/about/index.html">
+    <meta name="description" content="/etc/httpd/conf/httpd.conf默认的情况下是用户名及用户组分别是Apache，  在安装wordpress到/var/www/http的时候，会发现文件夹下面的用户名及用户组分别是root。 这样 看来 还是权限的问题~ WP网站要正常运行必须是 http.conf 中制定的用户和用户组 。  好了明白了这个道理我们只需要执行如下命令即可完美解决 1 2   chown -R">
+<meta name="keywords" content="wordpress,apache">
+<meta property="og:type" content="article">
+<meta property="og:title" content="centos下解决wordpress后台插件必须输入ftp问题">
+<meta property="og:url" content="http://wiki.yousi.fun/wiki/wordpress/centos下解决wordpress后台插件必须输入ftp问题.html">
 <meta property="og:site_name" content="有思趣">
-<meta property="og:description" content="有思，有趣">
+<meta property="og:description" content="/etc/httpd/conf/httpd.conf默认的情况下是用户名及用户组分别是Apache，  在安装wordpress到/var/www/http的时候，会发现文件夹下面的用户名及用户组分别是root。 这样 看来 还是权限的问题~ WP网站要正常运行必须是 http.conf 中制定的用户和用户组 。  好了明白了这个道理我们只需要执行如下命令即可完美解决 1 2   chown -R">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-11-14T16:24:29.151Z">
+<meta property="og:updated_time" content="2018-11-15T07:55:34.597Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="About">
-<meta name="twitter:description" content="有思，有趣">
+<meta name="twitter:title" content="centos下解决wordpress后台插件必须输入ftp问题">
+<meta name="twitter:description" content="/etc/httpd/conf/httpd.conf默认的情况下是用户名及用户组分别是Apache，  在安装wordpress到/var/www/http的时候，会发现文件夹下面的用户名及用户组分别是root。 这样 看来 还是权限的问题~ WP网站要正常运行必须是 http.conf 中制定的用户和用户组 。  好了明白了这个道理我们只需要执行如下命令即可完美解决 1 2   chown -R">
     
 
     
@@ -160,9 +161,9 @@
         
         
          <ul class="unstyled" id="tree"> 
-                    <li class="directory">
+                    <li class="directory open">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder"></i>
+                            <i class="fa fa-folder-open"></i>
                             &nbsp;
                             wordpress
                         </a>
@@ -175,7 +176,7 @@
                         </a>
                          <ul class="unstyled" id="tree">  <li class="file"><a href="/wiki/wordpress/软件/atom/atom常用插件.html">atom常用插件</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/wiki/wordpress/apache2启动一闪而过问题.html">apache2 启动一闪而过问题</a></li>  <li class="file"><a href="/wiki/wordpress/centos7安装apache2.html">centos7安装apache2</a></li>  <li class="file"><a href="/wiki/wordpress/centos下解决wordpress后台插件必须输入ftp问题.html">centos下解决wordpress后台插件必须输入ftp问题</a></li>  <li class="file"><a href="/wiki/wordpress/centos7安装wordpress.html">centos7安装wordpress</a></li>  <li class="file"><a href="/wiki/wordpress/centos7修改apache2目录权限和默认跟目录.html">centos7修改apache2目录权限和默认跟目录</a></li>  <li class="file"><a href="/wiki/wordpress/wordpress发布文章404.html">wordpress发布文章404</a></li>  <li class="file"><a href="/wiki/wordpress/wordpress 下载模板、更新报错 No working transports found解决办法.html">wordpress 下载模板、更新报错 No working transports found解决办法</a></li>  </ul> 
+                     <li class="file"><a href="/wiki/wordpress/apache2启动一闪而过问题.html">apache2 启动一闪而过问题</a></li>  <li class="file"><a href="/wiki/wordpress/centos7安装apache2.html">centos7安装apache2</a></li>  <li class="file active"><a href="/wiki/wordpress/centos下解决wordpress后台插件必须输入ftp问题.html">centos下解决wordpress后台插件必须输入ftp问题</a></li>  <li class="file"><a href="/wiki/wordpress/centos7安装wordpress.html">centos7安装wordpress</a></li>  <li class="file"><a href="/wiki/wordpress/centos7修改apache2目录权限和默认跟目录.html">centos7修改apache2目录权限和默认跟目录</a></li>  <li class="file"><a href="/wiki/wordpress/wordpress发布文章404.html">wordpress发布文章404</a></li>  <li class="file"><a href="/wiki/wordpress/wordpress 下载模板、更新报错 No working transports found解决办法.html">wordpress 下载模板、更新报错 No working transports found解决办法</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -275,16 +276,55 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
-            <section id="main"><article id="page-" class="article article-type-page" itemscope="" itemprop="blogPost">
+            <section id="main"><article id="post-wordpress/centos下解决wordpress后台插件必须输入ftp问题" class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
         
             <header class="article-header">
                 
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/wordpress/">wordpress</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/apache/">apache</a>, <a class="tag-link" href="/tags/wordpress/">wordpress</a>
+    </div>
+
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/wordpress/centos下解决wordpress后台插件必须输入ftp问题.html">
+            <time datetime="2018-11-15T07:53:18.714Z" itemprop="datePublished">2018-11-15</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href="https://github.com/yousifun/HexoWiki/raw/hexo/source/_posts/wordpress/centos下解决wordpress后台插件必须输入ftp问题.md" rel="external nofollow noopener noreferrer" target="_blank"> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href="https://github.com/yousifun/HexoWiki/edit/hexo/source/_posts/wordpress/centos下解决wordpress后台插件必须输入ftp问题.md" rel="external nofollow noopener noreferrer" target="_blank"> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href="https://github.com/yousifun/HexoWiki/commits/hexo/source/_posts/wordpress/centos下解决wordpress后台插件必须输入ftp问题.md" rel="external nofollow noopener noreferrer" target="_blank"> History </a>
+                            </div>
+                        
+                    </div>
+                
                 
     
         <h1 class="article-title" itemprop="name">
-            About
+            centos下解决wordpress后台插件必须输入ftp问题
         </h1>
     
 
@@ -297,7 +337,22 @@
             
         
         
-            
+            <p><code>/etc/httpd/conf/httpd.conf</code>默认的情况下是用户名及用户组分别是Apache，</p>
+<p>在安装wordpress到/var/www/http的时候，会发现文件夹下面的用户名及用户组分别是root。 这样 看来 还是权限的问题~ WP网站要正常运行必须是 http.conf 中制定的用户和用户组 。</p>
+<p>好了明白了这个道理我们只需要执行如下命令即可完美解决<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chown -R apache:apache /var/www/html</span><br><span class="line">chown -R apache:apache /var/www/html</span><br></pre></td></tr></table></figure></p>
+<p>这样问题就得以解决了，wordpress后台再也不需要输入ftp名了。</p>
+<p>当你的wordpress遇到以下问题时：</p>
+<ol>
+<li>不能上传图片</li>
+<li>不能自动安装主题、插件（需要FTP账户）</li>
+<li>不能自动更新</li>
+<li>其它任何需要wordpress写文件的问题</li>
+</ol>
+<p>这些问题基本都是一个原因，你的wordpress目录不属于当前的用户和组，即web访问的用户没有权限操作wp的一切需要写权限的操作，其实就是linux下权限不足，无法写入造成的。<br><strong>解决方法：</strong><br>首先需要你有root权限，SSH登录，进入到wp的安装目录：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /var/www/html/my_wp_blog</span><br></pre></td></tr></table></figure></p>
+<p>给予所有的写权限：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 wp-content</span><br></pre></td></tr></table></figure></p>
+<p>接下来给你的博客的文章上传一张图片，WP会生成一个目录，然后查看是哪个用户创建了文件夹。一般情况下，这个用户名叫“apache”，也有不少人发现这个用户是“nobody”.<br>进入到 wp 的<code>wp-content</code>目录，查看该目录下所有文件/文件夹的权限，所属用户、用户组：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">cd wp-content</span><br><span class="line">ls -l</span><br><span class="line">total 16</span><br><span class="line">-rw-r–r– 1 root root   30 May  4  2007 index.php</span><br><span class="line">drwxr-xr-x 3 root root 4096 Feb 10 19:31 plugins</span><br><span class="line">drwxr-xr-x 5 root root 4096 Mar 23 03:04 themes</span><br><span class="line">drwxrwxrwx 3 www www 4096 Mar 24 02:08 uploads</span><br></pre></td></tr></table></figure></p>
+<p>注意上传目录 <code>uploads</code> 是用户 www 创建的。<br>接下来把<code>wp-content</code>权限还原到 755：:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd ..</span><br><span class="line">chmod 755 wp-content</span><br><span class="line">##下来就是实际修复的命令了，改变wp所在文件夹的拥有者为刚找到的这个用户www：</span><br><span class="line">cd ..</span><br><span class="line">chown -R www:www my_wp_blog</span><br></pre></td></tr></table></figure></p>
+
             </div>
         
         <footer class="article-footer">
@@ -307,6 +362,25 @@
 
 
     
+<nav id="article-nav">
+    
+        <a href="/wiki/wordpress/wordpress 下载模板、更新报错 No working transports found解决办法.html" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">上一篇</strong>
+            <div class="article-nav-title">
+                
+                    wordpress 下载模板、更新报错 No working transports found解决办法
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/wordpress/centos7安装apache2.html" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">centos7安装apache2</div>
+        </a>
+    
+</nav>
+
 
 
 
