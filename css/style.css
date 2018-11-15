@@ -130,15 +130,15 @@ a:visited {
 }
 code {
   margin: 0 2px;
-  color: #e96900;
-  padding: 3px 5px;
-  font-size: 0.8em;
+  color: #fff;
+  padding: 0px 1px;
+  font-size: 0.98em;
   border-radius: 2px;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
-  background-color: #f8f8f8;
+  background-color: #ff8100;
 }
 .outer {
-  max-width: 1350px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -1002,7 +1002,7 @@ div.article-meta-button a:hover {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: auto;
+  margin: 30px 0px;
 }
 .article-entry iframe {
   border: none;
@@ -2269,7 +2269,7 @@ ol.toc {
   display: block;
   overflow-x: auto;
   padding: 15px 20px;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   line-height: 22.400000000000002px;
 }
